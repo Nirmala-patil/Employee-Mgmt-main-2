@@ -1,0 +1,66 @@
+.header {
+    font-size: 1.3rem !important;
+}
+
+.form-control {
+    height: 2rem !important;
+    width: 12rem !important;
+}
+
+.form-label {
+    font-size: 0.8rem !important;
+}
+
+.label-gender {
+    font-size: 0.8rem !important;
+    left: -6.5rem !important;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1920px) and (min-height: 300px) and (max-height: 1080px) {
+
+    /* Your CSS styles for 1920x1080 resolution */
+    .extension-section {
+        width: 39rem ! important;
+    }
+}
+
+.input::-webkit-outer-spin-button,
+
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-dialog {
+    margin: 10% auto;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.modal-header,
+.modal-footer {
+    padding: 10px 20px;
+}
+
+.modal-body {
+    padding: 20px;
+}
