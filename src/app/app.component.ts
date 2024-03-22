@@ -15,9 +15,8 @@ export class AppComponent implements OnInit{
   constructor(private msalService: MsalService) {}
 
   title = 'Employee-app';
-  ngOnInit() {}
-}
-    /*// Check if user is logged in
+  ngOnInit() {
+  // Check if user is logged in
     this.loggedIn = this.msalService.instance.getAllAccounts().length > 0;
 
     // Get the active account if user is logged in
@@ -41,5 +40,5 @@ export class AppComponent implements OnInit{
     // Update login status and account info after logout
     this.loggedIn = false;
     this.account = null;
-  }*/
-
+  }
+}
